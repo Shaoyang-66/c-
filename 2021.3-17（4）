@@ -1,6 +1,6 @@
 #include <math.h>
 #include <stdio.h>
-main()
+int main()
 {
 	double x,s;
 	printf("input number:\n");
@@ -10,3 +10,4 @@ main()
 	system("pause");
 	return 0;
 }
+
