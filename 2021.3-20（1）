@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int line=0;
+	printf("学习c语言\n");
+	while (line<=1000)
+	{
+		printf("继续学习！！！ %d\n",line );
+		line++;
+		
+	}
+	if(line>1000)
+	{
+		printf("走上人生巅峰！！！\n");
+	}
+	system("pause");
+	return 0;
+}
