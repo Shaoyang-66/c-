@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int a=0;
+	printf("命运掌握在你的手中！！！！\n");
+	printf("选择一个数字吧！！！ 0 or 1?  \n");
+	scanf("%d",&a);
+	if (a==1)
+	{
+		printf("恭喜你，走上人生巅峰！！！\n");
+	}
+	else 
+	{
+		printf("回家卖红薯吧！！！\n");
+	}
+	system("pause");
+	return 0;
+}
