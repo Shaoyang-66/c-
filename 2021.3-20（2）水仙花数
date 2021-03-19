@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+	int a,x,y,z;
+	for(a=100;a<1000;a++)
+	{
+		x=a/100;
+		y=a/10%10;
+		z=a%10;
+		if(a==x*x*x+y*y*y+z*z*z)
+		{
+			printf("水仙花数字是%d\n",a);
+		}
+	}
+	system("pause");
+	return 0;
+	
+}
